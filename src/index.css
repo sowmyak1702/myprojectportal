@@ -1,0 +1,240 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+  /* .header {
+    padding: 10px;
+    margin: 20px;
+    width: 90pc;
+    height: 5px;
+    box-sizing: border-box;
+    border-left-width: 2px;
+    background-image: url(pro.jpg);
+    background-color: cadetblue;
+padding-left: 5px;
+  } */
+  .nav-item a:hover {
+    padding: 5px;
+    color: white;
+    font-size: larger;
+    /* border: 3px solid black;
+    border-radius: 19px; */
+  }
+
+  .navbar-brand {
+    padding: 10px;
+    font-size: larger;
+    color: cadetblue !important;
+  }
+
+  #navbarText {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+
+  }
+  .nav-item{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 9px;
+  }
+  .nav-item :hover{
+    color: white;
+  }
+
+  .footer {
+    background-color: black;
+
+    position: sticky;
+    top: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: row wrap;
+
+
+  }
+
+  body {
+    background-color:lightcyan;
+  }
+
+  .container2 {
+    height: 140px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 3px;
+
+
+
+  }
+
+  body {
+    /* background-image: url(https://source.unsplash.com/1600x1900/?laptop,work); */
+    background-repeat: no-repeat;
+    background-size: 2300px 3456px;
+    min-height: 100vh;
+
+  }
+
+
+
+  /* body {font-family: Arial, Helvetica, sans-serif;} */
+  form {
+    border: 3px solid #f1f1f1;
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: darkgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    text-align: center;
+    align-items: center;
+    padding: 15px 18px;
+    background-color: #f44336;
+  }
+
+
+
+
+
+  .container {
+    padding: 12px;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 10px;
+  }
+
+ 
+
+
+  
+    .nav-item a:hover {
+      padding: 5px;
+      color:white;
+      font-size: larger;
+      /* border: 3px solid black;
+      border-radius: 19px; */
+    }
+    body {
+      /* background-image: url(https://source.unsplash.com/1600x1900/?laptop,work); */
+      /* background-repeat: no-repeat;
+      background-size: 2300px 3456px; */
+      min-height: 100vh;
+      background-color:lightcyan;
+  
+    }
+    
+  .dropdown {
+    text-align: center;
+    position: center;
+    align-items: center;
+    
+  }
+    .navbar-brand {
+      padding: 10px;
+      font-size: larger;
+      color: cadetblue !important;
+    }
+    .card{
+      display: inline-block;
+      justify-content: center;
+    }
+    #navbarText {
+      padding: 10px;
+      background-color:black;
+      color: white;
+      font-size: larger;
+  
+    }
+    .cards{
+      text-align: center;
+    }
+    .footer {
+      background-color:black;
+      
+      position: sticky;
+      top: 100%;
+      color:white;
+      display: -webkit-box;
+      display: -moz-box;
+      
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: row wrap;
+      
+  
+    }
+    .cardss{
+    
+      display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-right: 2px;
+    }
+    .container2 {
+      height: 140px;
+      padding: 3px;
+      margin: 3px;
+      text-align: center;
+      background-color:cadetblue;
+      border-radius: 3px;
+  
+  
+  
+    }
+  
+    body {
+      /* background-image: url(https://source.unsplash.com/1600x1900/?laptop,work); */
+      background-repeat: no-repeat;
+      background-size: 2300px 3456px;
+      min-height: 100vh;
+  
+    }
+  
+  
+

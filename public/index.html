@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+            <title>React Portal</title>
+</head>
+<body>
+ 
+</head>
+
+<style>
+
+  /* .header {
+      padding: 10px;
+      margin: 20px;
+      width: 90pc;
+      height: 5px;
+      box-sizing: border-box;
+      border-left-width: 2px;
+      background-image: url(pro.jpg);
+      background-color: cadetblue;
+  padding-left: 5px;
+    } */
+    .nav-item a:hover {
+      padding: 5px;
+      color:white;
+      font-size: larger;
+      /* border: 3px solid black;
+      border-radius: 19px; */
+    }
+    body {
+      /* background-image: url(https://source.unsplash.com/1600x1900/?laptop,work); */
+      /* background-repeat: no-repeat;
+      background-size: 2300px 3456px; */
+      min-height: 100vh;
+      background-color:white;
+  
+    }
+    
+  .dropdown {
+    text-align: center;
+    position: center;
+    align-items: center;
+    
+  }
+    .navbar-brand {
+      padding: 10px;
+      font-size: larger;
+      color: cadetblue !important;
+    }
+    .card{
+      display: inline-block;
+      justify-content: center;
+    }
+    #navbarText {
+      padding: 10px;
+      background-color:black;
+      color: white;
+      font-size: larger;
+  
+    }
+    .cards{
+      text-align: center;
+    }
+    .footer {
+      background-color:black;
+      
+      position: sticky;
+      top: 100%;
+      color:white;
+      display: -webkit-box;
+      display: -moz-box;
+      
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: row wrap;
+      
+  
+    }
+    .cardss{
+    
+      display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-right: 2px;
+    }
+    .container2 {
+      height: 140px;
+      padding: 3px;
+      margin: 3px;
+      text-align: center;
+      background-color:cadetblue;
+      border-radius: 3px;
+  
+  
+  
+    }
+  
+    body {
+      /* background-image: url(https://source.unsplash.com/1600x1900/?laptop,work); */
+      background-repeat: no-repeat;
+      background-size: 2300px 3456px;
+      min-height: 100vh;
+  
+    }
+  
+  
+  </style>
+ <style>
+  /* .header {
+    padding: 10px;
+    margin: 20px;
+    width: 90pc;
+    height: 5px;
+    box-sizing: border-box;
+    border-left-width: 2px;
+    background-image: url(pro.jpg);
+    background-color: cadetblue;
+padding-left: 5px;
+  } */
+  .nav-item a:hover {
+    padding: 5px;
+    color: white;
+    font-size: larger;
+    /* border: 3px solid black;
+    border-radius: 19px; */
+  }
+
+  .navbar-brand {
+    padding: 10px;
+    font-size: larger;
+    color: cadetblue !important;
+  }
+
+  #navbarText {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+
+  }
+  .nav-item{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+    
+
+  }
+  .nav-item :hover{
+    color: white;
+  }
+
+  .footer {
+    background-color: black;
+
+    position: sticky;
+    top: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: row wrap;
+
+
+  }
+
+  body {
+    background-color:lightcyan;
+  }
+
+  .container2 {
+    height: 140px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 3px;
+
+
+
+  }
+
+  body {
+    /* background-image: url(https://source.unsplash.com/1600x1900/?laptop,work); */
+    background-repeat: no-repeat;
+    background-size: 2300px 3456px;
+    min-height: 100vh;
+
+  }
+
+
+
+  /* body {font-family: Arial, Helvetica, sans-serif;} */
+  form {
+    border: 3px solid #f1f1f1;
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: darkgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    text-align: center;
+    align-items: center;
+    padding: 15px 18px;
+    background-color: #f44336;
+  }
+
+
+
+
+
+  .container {
+    padding: 12px;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 10px;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  /* @media screen and (max-width: 30px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+} */
+</style> 
+
+
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</html>
+
+
